@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "test:chrome": "cypress rum --browser chrome --no-exit"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    },
+    "devDependencies": {
+        "cypress": "^8.0.0",
+        "cypress-cucumber-preprocessor": "^4.2.0"
+    }
+}
